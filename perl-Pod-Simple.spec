@@ -2,7 +2,7 @@ Name:           perl-Pod-Simple
 # Epoch to compete with perl.spec
 Epoch:          1
 Version:        3.28
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Framework for parsing POD documentation
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -66,6 +66,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:3.28-4
+- Mass rebuild 2013-12-27
+
 * Wed Jul 31 2013 Petr Pisar <ppisar@redhat.com> - 1:3.28-3
 - Specify all dependencies
 
